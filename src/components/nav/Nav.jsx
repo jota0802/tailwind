@@ -1,7 +1,9 @@
+import {Link} from 'react-router-dom'
+
 const Nav =()=>{
     return(
         <>
-        <h2>Nav</h2>
+        <Link to='/'>home</Link>
         </>
     )
 }
